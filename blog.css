@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 590px;
+    margin: 20px;
+ 
+  }
+  .headeralign{
+      text-align:center;
+      color:blueviolet;
+  }
+  .imgsize{
+      width:590px;
+  }

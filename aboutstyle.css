@@ -1,0 +1,60 @@
+.box{
+    position: relative;
+    display: inline-block; 
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    top: 40%; 
+    width: 60%; 
+    color:white;
+    font-style: oblique;
+}
+.textcenter{
+    text-align: center;
+    font-style: oblique;
+    color:blue;
+}
+.textcenter1{
+    text-align: center;
+    font-style: oblique;
+    color:yellowgreen;
+    margin-top:-100px;
+    font-size: 30px;
+}
+@media screen and (max-width: 900px) {
+    .box .text{
+        top: 40%; 
+        width: 60%; 
+        color:white;
+        font-style: oblique;
+    }
+   
+    .textcenter{
+        text-align: center;
+        margin:20px;
+        font-style: oblique;
+    }
+    .textcenter1{
+        text-align: center;
+        font-style: oblique;
+        color:yellowgreen;
+        margin-top:-100px;
+        font-size: 20px;
+        margin-left:-200px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+   
+    .textcenter1{
+        text-align: center;
+        font-style: oblique;
+        color:yellowgreen;
+        margin-top:-100px;
+        font-size: 15px;
+        margin-left:-600px;
+    }
+
+}
